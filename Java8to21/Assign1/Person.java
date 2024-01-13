@@ -1,4 +1,4 @@
-package Java17to21.Assign1;
+package Java8to21.Assign1;
 
 public class Person {
     Integer age;
@@ -10,7 +10,7 @@ public class Person {
         this.name = name;
         this.height = height;
     }
-    
+
     public Integer getAge() {
         return age;
     }
