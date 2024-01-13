@@ -1,20 +1,20 @@
 package Java8to21.Assign1;
 
 public class Person {
-    Integer age;
+    int age;
     String name;
     Double height;
 
-    public Person(Integer age, String name, Double height) {
+    public Person(String name, int age, Double height) {
         this.age = age;
         this.name = name;
         this.height = height;
     }
 
-    public Integer getAge() {
+    public int getAge() {
         return age;
     }
-    public void setAge(Integer age) {
+    public void setAge(int age) {
         this.age = age;
     }
     public String getName() {
